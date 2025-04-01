@@ -1,0 +1,54 @@
+body {
+    font-family: monospace;
+}
+body{
+    display: block;
+    margin: 8px;
+}
+ul {
+    font-family:  Helvetica;
+}
+li {
+    list-style: circle;
+}
+    .list {
+    list-style: square
+    
+    }
+    #msg {
+        font-family: monospace;
+    }
+    .light-theme {
+        color: #000000;
+        background: #41f841;
+        
+    }
+    .btn{
+        color: var(--btnFontcolor);
+        background-color: var(--btnBg);
+    }
+    .btn{
+        position: absolute;
+        top: 20px;
+        left: 250px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        border: none;
+        color: var(--btnFontcolor);
+        background-color: var(--btnBg);
+    }
+    .btn:focus {outline-style: none;}
+    .light-theme{
+        --bg: var(--green);
+        --fontColor: var(--black);
+        --btnBg: var(--black);
+        --btnFontColor: var(--white);
+     }
+     .dark-theme{
+        --bg: var(--black);
+        --fontColor: var(--green);
+        --btnBg: var(--white);
+        --btnFontColor: var(--black);
+          
+     }
